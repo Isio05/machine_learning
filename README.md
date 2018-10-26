@@ -1,3 +1,3 @@
-# translated_presentation
+# machine_learning
 
-# Simple project to automate process of presentation translation #
+# Repository with files created during the course #
