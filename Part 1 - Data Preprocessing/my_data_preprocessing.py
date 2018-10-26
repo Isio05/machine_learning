@@ -1,1 +1,2 @@
 print("foobar")
+print("baz")
