@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
-from time import sleep
 
 # Make all array visible
 np.set_printoptions(threshold=np.nan)
@@ -41,5 +40,3 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_
 sc_x = StandardScaler()
 x_train = sc_x.fit_transform(x_train)
 x_test = sc_x.transform(x_test)
-
-sleep(1)
